@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 189, 189);
     color: rgb(0, 0, 0);
     margin: 0;
 }
@@ -19,16 +19,51 @@ header {
     background-color: rgb(230, 227, 198);
 }
 
+.menu {
+    list-style: none;
+  display: flex;
+}
+.lien {
+  display: flex;
+  margin: 0 15px;
+}
+
+.lien a {
+    text-decoration: none;
+    color: rgb(126, 0, 199);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+
+input, textarea {
+    width: 100%;
+    box-sizing; border-box;
+    margin-button: 1rem;
+    padding: 0,5rem;
+    border: 1px;
+
+}
+
+input[type="submit"] {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0,75rem 1,5rem;
+}
+
+input[type="submit"]:hover {
+    transition: rgb(9, 255, 0)
+}
+
 body.dark-mode {
   background-color: #2c3e50;
   color: #000000;
 }
 
-body.dark-mode .container {
-  background-color: #34495e;
-
-}
 
 body.dark-mode a {
-  color: #ce2424;
+  color: #0629ee;
 }
